@@ -965,8 +965,8 @@ MonoBehaviour:
   gameManager: {fileID: 2014448827}
   brickPrefab: {fileID: 8690877395756326920, guid: 65949962a4f2c2245b9ab4f53d90c096, type: 3}
   _brickStart: {fileID: 1059103057}
-  columnCount: 2
-  rowCount: 1
+  columnCount: 15
+  rowCount: 3
 --- !u!4 &1059103057
 Transform:
   m_ObjectHideFlags: 0
