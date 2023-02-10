@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         gameState = GameState.Gameplay;
-        lives = 3;
+        lives = 3;  
         SpawnInNewBall();
     }
 

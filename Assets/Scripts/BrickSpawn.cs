@@ -22,7 +22,7 @@ public class BrickSpawn : MonoBehaviour
 
 
     public void BrickLine(float yPos, int width)
-    {
+    {   
         for(int i = 0; i < width; i+= 1)
         {
             GameObject brick = Instantiate(brickPrefab, _brickStart.position + new Vector3(i,yPos,0), Quaternion.identity);
